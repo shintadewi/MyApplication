@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="Spinner_items">
+        <item>Terminal Bungurasih</item>
+        <item>City of Tomorrow Mall</item>
+        <item>Masjid Al-Akbar</item>
+        <item>Taman Pelangi</item>
+        <item>Pertigaan Ahmad Yani Jemur Andayani</item>
+        <item>Taman Flora</item>
+        <item>DBL Arena</item>
+        <item>Maspion Square</item>
+        <item>Royal Plaza</item>
+        <item>Pertigaan Wonokromo</item>
+        <item>Stasiun Wonokromo</item>
+        <item>Marvel City</item>
+        <item>Monumen Kapal Selam</item>
+        <item>Stasiun Gubeng</item>
+        <item>Grand City Mall</item>
+        <item>Hi-Tech Mall</item>
+        <item>Pasar Atom Surabaya</item>
+        <item>Wisata Religi Ampel</item>
+        <item>DTC Wonokromo</item>
+        <item>Kebun Binatang Surabaya</item>
+        <item>Taman Bungkul</item>
+        <item>Tunjungan Plaza</item>
+        <item>Monumen Pers Perjuangan Surabaya</item>
+        <item>Hotel Majapahit (Yamato)</item>
+        <item>Museum Surabaya (Gedung Siola)</item>
+        <item>BG Junction</item>
+        <item>Pertigaan Bubutan Raden Saleh</item>
+        <item>Museum Dr. Soetomo GNI</item>
+        <item>Stasiun Pasar Turi</item>
+        <item>Tugu Pahlawan</item>
+        <item>Perempatan Tembaan Bubutan</item>
+        <item>Pasar Turi Baru</item>
+        <item>Perempatan Kranggan Tembok Dukuh</item>
+        <item>Perempatan Demak Dupak</item>
+        <item>Stasiun Surabaya Kota (Semut)</item>
+        <item>Museum Kesehatan Dr. Adhyatma</item>
+        <item>Jembatan Merah Plaza</item>
+        <item>Pertigaan Rajawali Indrapura</item>
+        <item>Pertigaan Perak Rajawali</item>
+        <item>Monumen Pelayaran</item>
+        <item>Pelabuhan Tanjung Perak</item>
+        <item>Terminal Tambak Osowilangun</item>
+    </string-array>
+</resources>

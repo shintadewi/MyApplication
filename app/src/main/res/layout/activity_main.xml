@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:background="@drawable/bg_header_custom"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:src="@drawable/scroll_group_9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:fontFamily="@font/sfpro_heavy"
+        android:text="Jalan Yuk!"
+        android:textColor="#53004E"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scroll_group_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:src="@drawable/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:src="@drawable/location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:src="@drawable/clock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTmptBerngkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/sfpro_regular"
+        android:text="Titik Keberangkatan Anda"
+        android:textColor="#B0B2BE"
+        android:textSize="22dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <Spinner
+        android:id="@+id/titikAwalSpinner"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FEFAF6"
+        android:entries="@array/Spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTmptBerngkat" />
+
+    <TextView
+        android:id="@+id/textTmptBerhenti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/sfpro_regular"
+        android:text="Titik Pemberhentian Anda"
+        android:textColor="#B0B2BE"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titikAwalSpinner" />
+
+    <Spinner
+        android:id="@+id/titikAkhirSpinner"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:background="#FEFAF6"
+        android:entries="@array/Spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTmptBerhenti" />
+
+    <TextView
+        android:id="@+id/textWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/sfpro_regular"
+        android:text="Waktu Maksimal Perjalanan Anda"
+        android:textColor="#B0B2BE"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titikAkhirSpinner" />
+
+    <EditText
+        android:id="@+id/etWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWaktu" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        android:backgroundTint="#53004E"
+        android:fontFamily="@font/sfpro_regular"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#FFC736"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etWaktu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
